@@ -1,0 +1,42 @@
+
+
+h1{
+  color:burlywood;
+}
+
+.brown{
+  color: brown;
+}
+
+#identified{
+  color:aqua;
+}
+
+a[href='#']{
+  color: red;
+}
+
+div h2{
+  color:blueviolet;
+}
+
+div > p{
+  color:blue;
+}
+
+a ~ p{
+  color:cadetblue;
+}
+
+/* исправлено */
+p.text{
+  color:coral;
+}
+
+#search-word  p[lang~="en-us"]{
+  color:burlywood;
+}
+
+.wrapper p > span{
+  color: greenyellow;
+}
